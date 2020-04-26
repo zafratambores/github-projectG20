@@ -21,6 +21,11 @@ header{
 	top: 0;
 	z-index: 10;
 }
+.image{
+	width: 200px;
+	height: 210px;
+}
+
 .logo{
 	width: 100px;
 	margin-top: 0px;
