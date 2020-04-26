@@ -1,0 +1,95 @@
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+  .lesson{
+  	width: 50%;
+  	margin-bottom: 50px;
+  }
+
+  .top-wrapper h1{
+  	font-size: 32px;
+  }
+
+  .heading h2{
+  	font-size: 20px;
+  }
+}
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+
+  .menu-icon {
+    display: block;
+  }
+
+  .lesson{
+  	width: 100%;
+  }
+
+  .footer{
+  	text-align: center;
+  }
+  .btn{
+  	width: 100%;
+  }
+
+  .facebook{
+  	margin-bottom: 10px;
+  }
+
+  .top-wrapper{
+  	text-align: left;
+  	padding-top: 130px;
+  }
+
+  .header-right{
+  	display: none;
+  }
+
+  .menu-icon{
+  	display: block;
+  }
+
+  .top-wrapper p{
+  	font-size: 14px;
+  	line-height: 20px;
+  }
+
+  .header-right.responsive {
+  	display: block;
+  	background-color: rgba(34, 49, 52, 0.9);
+  	margin: -5px -15px 0px 0px;
+  	width: 108%;
+  }
+  .header-right.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+    line-height: 45px;
+  }
+  .header-right.responsive a:hover {
+  	background-color: rgba(255, 255, 255, 0.3);
+  }
+  .header-right.responsive a.active {
+  	background-color: rgba(255, 255, 255, 0.3);
+  }
+
+  /*@samsi*/
+  .footer{
+    margin-right: 0px;
+  }
+  .main-content{
+    display: block;
+    text-align: center;
+    width: 100%;
+  }
+  .left .content p{
+    text-align: center;
+  }
+  .copyright{
+    font-size: 10px;
+    color: rgba(104, 9, 49, 0.911);
+    text-align: center;
+    padding: 20px 0;
+  }
+
+}
